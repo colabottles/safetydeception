@@ -114,8 +114,6 @@ class: my-cool-content-on-the-right
   <li>W3C Invited Expert, WCAG</li>
   <li>Accessibility Guidelines Working Group</li>
   <li>Accessibility Conformance Testing Task Force and Rules Group</li>
-  <li><strong>Not</strong> the Gorton's Fisherman or Santa Claus</li>
-  <li>Semi-retired... semi meaning "in my head".</li>
 </ul>
 
 <style>
