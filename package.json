@@ -10,7 +10,7 @@
   "dependencies": {
     "@iconify-json/carbon": "^1.2.13",
     "@iconify-json/logos": "^1.2.9",
-    "@slidev/cli": "^52.2.4",
+    "@slidev/cli": "^52.4.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "npm-check-updates": "^19.0.0",
