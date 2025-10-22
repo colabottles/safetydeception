@@ -151,6 +151,24 @@ backgroundSize: cover
 ---
 transition: fade-out
 layout: image
+image: https://res.cloudinary.com/colabottles/image/upload/v1761150555/magnolia2025/meandb.jpg
+backgroundSize: contain
+---
+
+<br>
+
+---
+transition: fade-out
+layout: image
+image: https://res.cloudinary.com/colabottles/image/upload/v1761150744/magnolia2025/bandgkids.jpg
+backgroundSize: contain
+---
+
+<br>
+
+---
+transition: fade-out
+layout: image
 image: https://res.cloudinary.com/colabottles/image/upload/v1759082681/magnolia2025/w3c.jpg
 backgroundSize: cover
 ---
