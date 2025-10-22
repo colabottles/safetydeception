@@ -118,6 +118,9 @@ class: my-cool-content-on-the-right
   <li>W3C Invited Expert, WCAG</li>
   <li>Accessibility Guidelines Working Group</li>
   <li>Accessibility Conformance Testing Task Force and Rules Group</li>
+  <li>Former Accessibility Engineer</li>
+  <li>Former Executive Head Chef</li>
+  <li>Free Agent Web Developer for Hire&excl;</li>
 </ul>
 
 <style>
