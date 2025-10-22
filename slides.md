@@ -120,6 +120,9 @@ class: my-cool-content-on-the-right
   <li>Accessibility Conformance Testing Task Force and Rules Group</li>
   <li>Former Accessibility Engineer</li>
   <li>Former Executive Head Chef</li>
+  <li>NOT Santa, NOT the Gorton's Fisherman</li>
+  <li>1980 - Learned BASIC and Scheme programming.</li>
+  <li>I like food, I <span class="boldthisthang">LOVE</span> lobster.</li>
   <li>Free Agent Web Developer for Hire&excl;</li>
 </ul>
 
@@ -136,6 +139,11 @@ ul {
 }
 ul li::marker {
   content: "🦞 ";
+}
+span.boldthisthang {
+  font-weight: 900;
+  color: #ff0000;
+  margin: 0 0.25em;
 }
 </style>
 
@@ -862,6 +870,22 @@ backgroundSize: cover
 ---
 
 <br>
+
+---
+transition: slide-up
+layout: image
+image: https://res.cloudinary.com/colabottles/image/upload/v1761163989/magnolia2025/paula.png
+backgroundSize: contain
+---
+
+<br>
+
+---
+transition: slide-up
+---
+
+
+# https://gofund.me/3bfaef342
 
 ---
 transition: slide-down
