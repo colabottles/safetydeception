@@ -9,8 +9,6 @@ title: Safety & Deception
 info: |
   ## Slidev Starter Template
   The Impact on Accessibility.
-
-  Learn more at [Sli.dev](https://sli.dev)
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
