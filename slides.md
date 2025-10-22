@@ -871,9 +871,15 @@ backgroundSize: cover
 
 ---
 transition: slide-up
+---
+
+# Now for a little ask...
+
+---
+transition: slide-up
 layout: image
 image: https://res.cloudinary.com/colabottles/image/upload/v1761163989/magnolia2025/paula.png
-backgroundSize: contain
+backgroundSize: cover
 ---
 
 <br>
