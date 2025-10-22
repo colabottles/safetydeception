@@ -30,6 +30,10 @@ mdc: true
   Press Space for next page <carbon:arrow-right />
 </div> -->
 
+<div class="abs-bl m-6 text-xl">
+  <p>Todd Libby &middot; MagnoliaConf 2025</p>
+</div>
+
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/colabottles" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
@@ -59,12 +63,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
-## Housekeeping
+# Housekeeping
 
-### Before we jump in... thank you to the following:
+## Before we jump in... thank you to the following:
 
 <style>
-h2 {
+h1 {
   background-color: #b66a2bff;
   background-image: linear-gradient(45deg, #d48f4eff 10%, #8c4014ff 20%);
   background-size: 100%;
@@ -105,7 +109,7 @@ level: 2
 class: my-cool-content-on-the-right
 ---
 
-## Who Is This Guy?
+# Todd Libby
 
 <img class="todd-headshot" src="https://res.cloudinary.com/colabottles/image/upload/v1759080925/magnolia2025/todd.jpg" alt="Todd">
 
@@ -118,11 +122,11 @@ class: my-cool-content-on-the-right
 
 <style>
 img.todd-headshot {
-  height: 29vh;
-  width: 15vw;
-  aspect-ratio: 2 / 1;
+  height: 30vh;
+  width: 17vw;
   border: 10px solid #b66a2bff;
   float: left;
+  margin: 0.5em 0;
 }
 ul {
   float: right;
@@ -155,7 +159,7 @@ layout: image-right
 image: https://res.cloudinary.com/colabottles/image/upload/v1759086003/magnolia2025/wharf.jpg
 ---
 
-## Web Content Accessibility Guidelines
+# Web Content Accessibility Guidelines
 
 Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory or developing phase and will change substantially.
 
@@ -192,13 +196,13 @@ type Guideline = {
 transition: fade-out
 ---
 
-## Anti-pattern v. Deceptive pattern
+# Anti-pattern v. Deceptive pattern
 
 <p>In the Functional Needs subgroup, we came up with two terms for these patterns:</p>
 
 <v-click>
 
-### Anti-pattern
+## Anti-pattern
 
 An unintentional <span v-mark.red="1">(without intent)</span> design or implementation that often leads to a general decline in usability.
 
@@ -208,14 +212,14 @@ An unintentional <span v-mark.red="1">(without intent)</span> design or implemen
 
 <v-click>
 
-### Deceptive pattern
+## Deceptive pattern
 
 A <span v-mark.circle.orange="2">deliberate</span> anti-pattern designed to confuse or deceive a user, used to aim or <span v-mark.green="3">force</span> a user down a particular path or to <span v-mark.circle.blue="4">trap</span> attention in a way that redirects or focuses on a goal that the user either doesn't want or need, or be harmful to them.
 
 </v-click>
 
 <style>
-  h2 {
+  h1 {
     color: rgba(180, 129, 18, 1);
   }
 </style>
@@ -224,7 +228,7 @@ A <span v-mark.circle.orange="2">deliberate</span> anti-pattern designed to conf
 transition: fade-out
 ---
 
-## Safety & Deception subgroup outcomes
+# Safety & Deception subgroup outcomes
 
 <ul>
   <li>Information Privacy</li>
@@ -238,7 +242,6 @@ transition: fade-out
   ul {
     margin: 0 2em;
   }
-
   ul li::marker {
     content: "🦞 ";
   }
@@ -248,7 +251,7 @@ transition: fade-out
 transition: slide-up
 ---
 
-## Guidelines
+# Guidelines
 
 <ul>
   <li>Foundational Requirements</li>
@@ -261,7 +264,6 @@ transition: slide-up
   ul {
     margin: 0 2em;
   }
-
   ul li::marker {
     content: "🦞 ";
   }
@@ -279,7 +281,7 @@ backgroundSize: cover
   :enter="{ x: 0 }"
   :leave="{ x: 50 }"
 >
-  <h2>Dark Patterns</h2>
+  <h1>Dark Patterns</h1>
 </div>
 
 <br>
@@ -291,6 +293,19 @@ backgroundSize: cover
 >
   <h2>Deceptive Patterns</h2>
 </div>
+
+<style>
+  h2 {
+  background-color: #b66a2bff;
+  background-image: linear-gradient(45deg, #d48f4eff 10%, #8c4014ff 50%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  line-height: 2;
+}
+</style>
 
 ---
 transition: fade-out
@@ -318,7 +333,7 @@ transition: fade-out
 transition: slide-down
 ---
 
-<h2>Really worse...</h2>
+<h2>Much worse...</h2>
 
 <div v-click="[1, 2]" v-motion
   :initial="{ x: -80 }"
@@ -365,7 +380,7 @@ transition: slide-down
 transition: slide-down
 ---
 
-<h2>Like, horribly worse...</h2>
+<h2>I mean, horribly worse...</h2>
 
 <div v-click="[1, 2]" v-motion
   :initial="{ x: -80 }"
@@ -395,7 +410,6 @@ transition: slide-down
   img.votingcard {
     margin: 3% auto;
   }
-
   strong {
     color: #d6ec58ff;
     text-transform: uppercase;
@@ -406,7 +420,7 @@ transition: slide-down
 transition: face-out
 ---
 
-## Types of Deceptive Patterns
+# Types of Deceptive Patterns
 
 <ul>
   <li>Comparison Prevention</li>
@@ -428,7 +442,6 @@ transition: face-out
   ul {
     margin: 0 2em;
   }
-
   ul li::marker {
     content: "🦞 ";
   }
@@ -477,7 +490,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759332681/magnolia2
 class: content-right
 ---
 
-### Comparison Prevention
+## Comparison Prevention
 
 <ul>
   <li>Cognitive & emotional burden</li>
@@ -490,7 +503,6 @@ class: content-right
   ul {
     margin: 2em .5em;
   }
-
   ul li::marker {
     content: "⚔️ ";
   }
@@ -515,7 +527,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759332680/magnolia2
 class: content-left
 ---
 
-### Confirmshaming
+## Confirmshaming
 
 <ul>
   <li>Cognitive & psychological impact</li>
@@ -546,7 +558,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759332680/magnolia2
 class: content-right
 ---
 
-### Disguised Ads
+## Disguised Ads
 
 <ul>
   <li>Confusion for screen reader users</li>
@@ -559,7 +571,6 @@ class: content-right
   ul {
     margin: 2em .5em;
   }
-
   ul li::marker {
     content: "🎵 ";
   }
@@ -584,7 +595,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759332679/magnolia2
 class: content-left
 ---
 
-### Fake Scarcity, Urgency, & Societal Proof
+## Fake Scarcity, Urgency, & Societal Proof
 
 <ul>
   <li>Increased cognitive load & impact</li>
@@ -601,7 +612,6 @@ class: content-left
   ul {
     margin: 2em .5em;
   }
-
   ul li::marker {
     content: "🛡️ ";
   }
@@ -620,7 +630,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759332679/magnolia2
 class: content-right
 ---
 
-### Forced Action
+## Forced Action
 
 <ul>
   <li>Cognitive & psychological barriers</li>
@@ -633,7 +643,6 @@ class: content-right
   ul {
     margin: 2em .5em;
   }
-
   ul li::marker {
     content: "🏹 ";
   }
@@ -673,7 +682,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759338872/magnolia2
 class: content-left
 ---
 
-### Infinite Scrolling
+## Infinite Scrolling
 
 <ul>
   <li>Navigation & orientation difficulties</li>
@@ -693,15 +702,12 @@ class: content-left
   ul {
     margin: 2em .5em;
   }
-
   ul ul {
     margin: 0 0 0 2em;
   }
-
   ul li::marker {
     content: "🤮 ";
   }
-
   ul ul li::marker {
     content: "🤢 ";
   }
@@ -716,7 +722,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759339628/magnolia2
 class: content-left
 ---
 
-### Aza Raskin
+## Aza Raskin
 
 <ul>
   <li>Inventor of infinite scrolling and arch-nemesis</li>
@@ -731,7 +737,6 @@ class: content-left
   ul {
     margin: 2em .5em;
   }
-
   ul li::marker {
     content: "🤬 ";
   }
@@ -749,6 +754,7 @@ blockquote {
       p {
         --uno: text-teal-500 dark:text-teal-400;
         margin: 1em 0;
+        line-height: 1.5;
       }
 }
 </style>
@@ -780,7 +786,7 @@ image: https://res.cloudinary.com/colabottles/image/upload/v1759362037/magnolia2
 class: content-right
 ---
 
-### Multiple Patterns
+## Multiple Patterns
 
 <ul>
   <li>Fake scarcity & urgency</li>
@@ -807,15 +813,12 @@ class: content-right
   ul {
     margin: 2em .5em;
   }
-
   ul ul {
     margin: 0 0 0 2em;
   }
-
   ul li::marker {
     content: "❌ ";
   }
-
   ul ul li::marker {
     content: "👎🏽 ";
   }
