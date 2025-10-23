@@ -20,7 +20,7 @@ transition: slide-left
 mdc: true
 ---
 
-# Safety & Deception
+# Safety & <span class="deception">Deception</span>
 
 ## The Impact on Accessibility
 
@@ -28,19 +28,13 @@ mdc: true
   Press Space for next page <carbon:arrow-right />
 </div> -->
 
-<div class="abs-bl m-6 text-xl">
+<div class="abs-bl m-6 text-base">
   <p>Todd Libby &middot; MagnoliaConf 2025</p>
 </div>
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com/colabottles" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
   <a href="https://bsky.app/profile/toddl.dev" target="_blank" class="slidev-icon-btn">
     <logos:bluesky />
-  </a>
-  <a href="https://twitch.tv/toddcodes" target="_blank" class="slidev-icon-btn">
-    <logos:twitch />
   </a>
   <a href="www.linkedin.com/in/toddlibby" target="_blank" class="slidev-icon-btn">
     <logos:linkedin-icon />
@@ -48,8 +42,18 @@ mdc: true
 </div>
 
 <style>
+  h1 {
+    position: absolute;
+    top: 0;
+  }
+  h1 span.deception {
+    opacity: 0.5;
+  }
   h2 {
     color: #f5ea51ff;
+    position: absolute;
+    top: 3em;
+    left: 20em;
   }
 </style>
 
